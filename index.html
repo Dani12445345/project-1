@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -30,41 +31,42 @@
 </section>
 
 <div class="Img">
-    <img src="images/walk.jpg" alt="Paris">
+    <img src="images/rose.jpg" alt="Paris">
 </div>
 
 <div class="weather-widget">
     <h3>Current Weather in Paris</h3>
     <p>Loading...</p>
-
- 
-<script>
-const apiKey = '54b645343db814eb55ea144445f88dcc';
-const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=Paris&appid=${apiKey}`;
-
-fetch(apiUrl)
-  .then(response => response.json())
-  .then(data => {
-    const temperature = Math.round((data.main.temp - 273.15) * 9/5 + 32);
-    const description = data.weather[0].description;
+    <div class="weather-widget"></div>
+    <script defer>
+      function fetchWeatherData() {
+        const apiKey = '54b645343db814eb55ea144445f88dcc';
+        const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=Paris&appid=${apiKey}`;
     
-    const widget = document.querySelector('.weather-widget');
-    widget.innerHTML = `
+        fetch(apiUrl)
+          .then(response => response.json())
+          .then(data => {
+            const temperature = Math.round((data.main.temp - 273.15) * 9/5 + 32);
+            const description = data.weather[0].description;
     
-    <h3>Current Weather in Paris</h3>
-        <h3>Temperature: ${temperature}°F</h3>
-        <h3>Description: ${description}</h3>
-    `;
+            const widget = document.querySelector('.weather-widget');
+            widget.innerHTML = `
+              <h3>Current Weather in Paris</h3>
+              <h3>Temperature: ${temperature}°F</h3>
+              <h3>Description: ${description}</h3>
+            `;
     
-  })
-  .catch(error => {
-    console.error('Error fetching weather data:', error);
-    const widget = document.querySelector('.weather-widget');
-    widget.innerHTML = '<p>Error fetching weather data</p>';
-  });
+          })
+          .catch(error => {
+            console.error('Error fetching weather data:', error);
+            const widget = document.querySelector('.weather-widget');
+            widget.innerHTML = '<p>Error fetching weather data</p>';
+          });
+      }
+    
+      window.addEventListener('load', fetchWeatherData);
+    </script>
 
-
-</script>
 </div>
 
 <br>

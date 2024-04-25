@@ -1,10 +1,9 @@
-
-/* Images */
 img {
+    max-width:250px; 
     width: 250px;
-    height: 200px;
+    height: 200px; 
     float: right;
-    margin: 20px 10px 20px 10px; /* Adjust margin to prevent text overlap */
+    margin: 20px 10px;
     border-radius: 10px;
     box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
@@ -14,9 +13,6 @@ img {
 img:hover {
     transform: scale(1.05);
 }
-
-
-
 
 /* Global Styles */
 :root {
@@ -126,8 +122,7 @@ img:hover {
 /* Media Queries */
 @media screen and (max-width: 768px) {
     img {
-        width: 80%;
-        max-width: 250px;
+      
         float: none;
         margin: 20px auto;
     }
