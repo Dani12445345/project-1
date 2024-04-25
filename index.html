@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Explore the beauty and charm of Paris, the capital city of France, known for its iconic landmarks and rich cultural heritage.">
-    
     <link rel="stylesheet" href="css/style.css">
    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
 
     <title>Paris</title>
+
 
 </head>
 <body>
@@ -30,46 +31,7 @@
     <p>Paris is the capital and most populous city of France, located along the Seine River. It is one of the world's most important and attractive cities, known for its culture, history, beauty, and cuisine. Paris has many famous attractions, such as the Eiffel Tower, the Louvre Museum, the Notre-Dame Cathedral, and the Arc de Triomphe. Paris is also known as the "City of Light" for its role in the Age of Enlightenment and its early adoption of street lighting. The city is a vibrant hub of art, fashion, and gastronomy, attracting millions of visitors each year.</p>
 </section>
 
-<div class="Img">
-    <img src="images/rose.jpg" alt="Paris">
-</div>
 
-<div class="weather-widget">
-    <h3>Current Weather in Paris</h3>
-    <p>Loading...</p>
-    <div class="weather-widget"></div>
-    <script defer>
-      function fetchWeatherData() {
-        const apiKey = '54b645343db814eb55ea144445f88dcc';
-        const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=Paris&appid=${apiKey}`;
-    
-        fetch(apiUrl)
-          .then(response => response.json())
-          .then(data => {
-            const temperature = Math.round((data.main.temp - 273.15) * 9/5 + 32);
-            const description = data.weather[0].description;
-    
-            const widget = document.querySelector('.weather-widget');
-            widget.innerHTML = `
-              <h3>Current Weather in Paris</h3>
-              <h3>Temperature: ${temperature}°F</h3>
-              <h3>Description: ${description}</h3>
-            `;
-    
-          })
-          .catch(error => {
-            console.error('Error fetching weather data:', error);
-            const widget = document.querySelector('.weather-widget');
-            widget.innerHTML = '<p>Error fetching weather data</p>';
-          });
-      }
-    
-      window.addEventListener('load', fetchWeatherData);
-    </script>
-
-</div>
-
-<br>
 <footer>
     <div class="social">
         <a href="https://www.instagram.com/naenae_nene_6545?igsh=NHF6MHZwajlqZWYw" title="instagram" target="_blank"><i class="fab fa-instagram"></i></a>
