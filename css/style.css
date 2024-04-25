@@ -108,3 +108,41 @@ body {
     margin-bottom: 60px;
     position: relative;
 }
+
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .links {
+        flex-direction: column;
+    }
+}
+
+
+/* Images hover effect */
+img:hover {
+    transform: scale(1.05);
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    img {
+        width: 80%;
+        max-width: 250px;
+        float: none;
+        margin: 20px auto;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    .intro {
+        font-size: 16px;
+       
+    }
+}
+
