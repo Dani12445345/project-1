@@ -109,3 +109,56 @@ h1, h2 {
     height: 200px;
 
 }
+
+footer {
+    background-color:#B3C8CF;
+    margin-top: 100px;
+  }
+
+  
+  .social {
+    display: flex;
+    justify-content: center;
+    margin-bottom:20px;
+    margin-top:20px;
+  }
+
+  .social a {
+     text-decoration: none;
+     padding: 10px;
+     background-color: aliceblue;
+     margin: 10px;
+     border-radius: 50%;
+  }
+
+  .social a i{
+    font-size: 2em;
+    color: #000;
+    opacity: 0.9;
+  }
+
+  /* Hover effects on social media icons */
+  .socialicons a:hover{
+    background-color:#B3C8CF;
+    transition: 0.100s;
+  }
+
+  .social a:hover i{
+    color:#B3C8CF;
+    transition: 0.5s;
+
+  }
+
+  .footernav{
+    margin: 30px 0;
+  }
+
+  .footerbottom{
+    background-color:#B3C8CF;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .footerbottom p{
+    color: black;
+  }
