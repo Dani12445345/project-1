@@ -37,7 +37,7 @@ body {
     background-color: var(--secondary-color);
     color: #100e0e;
     margin: 5px;
-    transition: background-color 0.3s, color 0.3s;
+    transition:0.3s, color 0.3s;
 }
 
 .links a:hover {
