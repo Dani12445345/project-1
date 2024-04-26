@@ -97,3 +97,15 @@ h1, h2 {
   .links a:hover {
     background-color: var(--quaternary-color);
   }
+
+  iframe {
+     border: #ff0909 2px solid;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    display: block;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    width:400px;
+    height: 200px;
+
+}
