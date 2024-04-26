@@ -127,11 +127,3 @@ h1, h2, h3{
   .footerbottom p{
     color: black;
   }
-
-  .designer{
-    opacity: 0.7;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 400;
-    margin: 0px 5px;
-  }
