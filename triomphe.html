@@ -9,13 +9,28 @@
     <title>Arc de Triomphe</title>
 </head>
 <body>
+  <div class="navbar">
+    <div class="burger-menu">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
     <div class="links">
-        <a href="index.html" target="_blank">Home</a>
         <a href="museum.html" target="_blank">The Museum</a>
         <a href="eiffelTower.html" target="_blank">The Eiffel Tower</a>
+        <a href="triomphe.html" target="_blank">The Arc de Triomphe</a>
         <a href="contactUs.html" target="_blank">Contact us</a>
-      </div>
-    
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        document.querySelector('.burger-menu').addEventListener('click', function() {
+            document.querySelector('.links').classList.toggle('show');
+        });
+    });
+</script>
+
       <h1>Arc de Triomphe</h1>
 
    

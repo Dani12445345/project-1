@@ -21,8 +21,10 @@
     font-size: 100%;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    border: #555 -2PX solid;
     background-image: url(/assets/images/streets.jpg);
+    background-size: cover;
+ 
+    
     
   }
 
@@ -36,21 +38,23 @@
     flex-wrap: wrap;
   }
   
-  .links a {
-    text-decoration: none;
-    padding: 15px 30px;
-    border-radius: 5px;
-    background-color: var(--secondary-color); /* Light Salmon color */
-    color: #0d0c0c;
-    margin: 5px; /* Add spacing between links */
-    transition: background-color 0.3s, color 0.3s;
-  }
-  
-  .links a:hover {
-    background-color: var(--quaternary-color); /* Light Coral color */
-    color: #fff;
-  }
-  
+
+.links a {
+  text-decoration: none;
+  padding: 20px 30px;
+  border-radius: 5px;
+  background-color: var(--secondary-color);
+  color: #000;
+  margin: 15px;
+  transition: 0.3s, color 0.3s;
+  font-size: 16px;
+}
+
+.links a:hover {
+  background-color: var(--quaternary-color);
+}
+
+
   /* Font imports */
   @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
   
