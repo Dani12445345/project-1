@@ -7,11 +7,37 @@
 }
 
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
     background-color: var(--primary-color);
     color: #0e0c0c;
 }
 
+
+.content{
+    border:#FFA07A 2px solid ;
+    text-align: center;
+}
+    
+h1, h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}   
+
+
+.building{
+     border: 2px solid #FFA07A;
+     padding: 20px;
+     text-align:center;
+    margin-bottom: 20px;
+}
+
+/*Memorable Pictures from its Construction text*/
+.start{
+ text-align: center;
+
+}
 
 /* Image section styles */
 .images {
@@ -40,4 +66,5 @@ body {
 .additional-info {
     border: 2px solid #FFA07A;
     padding: 20px;
+    text-align: center;
 }
