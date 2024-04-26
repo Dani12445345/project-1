@@ -57,12 +57,14 @@ h1 {
 
 .navbar {
   display: flex;
+  justify-content: center; 
 }
 
 .links {
   display: flex;
-  justify-content: center; 
+
 }
+
 
 .burger-menu {
   display: none;

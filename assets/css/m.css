@@ -44,13 +44,10 @@ body {
   background-color: var(--quaternary-color);
 }
 .navbar {
-  display: flex; 
-}
-
-.links {
   display: flex;
   justify-content: center; 
 }
+
 
 .burger-menu {
   display: none;

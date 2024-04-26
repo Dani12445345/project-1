@@ -7,7 +7,7 @@
 }
 
 body {
-    margin-bottom: 0;
+    margin-bottom: 60px;
     background-color: var(--primary-color);
     position: relative;
     text-align: center;
@@ -31,21 +31,24 @@ body {
   
   .navbar {
     display: flex;
-     }
-    
-    
- .burger-menu {
+    justify-content: center; 
+  }
+  
+  .links {
+    display: flex;
+  
+  }
+  
+  .burger-menu {
     display: none;
   }
   
   .line {
     width: 35px;
     height: 3px;
-    background-color: #130000;
+    background-color: #0c0c0c;
     margin: 5px;
   }
-
-  
 
 .images {
     display: flex;
@@ -62,6 +65,7 @@ body {
     margin-top: 5px;
     text-transform: uppercase;
 }
+
 
 .images img {
     width: 150px;
