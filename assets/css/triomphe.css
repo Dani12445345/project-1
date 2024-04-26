@@ -17,14 +17,23 @@ body {
     justify-content: center;
     max-width: 100%;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+ 
 }
 
 h1, h2, h3{
-    text-align: center;
-    color: #333;
+     color: #0c0101;
     font-size: 2em;
-    margin: 20px 0;
+ 
 }
 
 
+/* Style for paragraphs */
+.memorable {
+    color: #666;
+    line-height: 1.6;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
