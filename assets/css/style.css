@@ -139,20 +139,6 @@ footer {
   .footerbottom p{
     color: black;
   }
-
-
-
-
-
-/* Media Queries */
-@media screen and (max-width: 768px) {
-  .links {
-      flex-direction: column;
-  }
-}
-
-
-
 /* Media Queries */
 @media screen and (max-width: 768px) {
  
@@ -163,4 +149,21 @@ footer {
   h2 {
       font-size: 16px;
   }
+
+  h3{
+      font-size: 16px;
+  }
+
+  .links {
+      flex-direction: column;
+  }
+
+  img {
+      width: 80%;
+      max-width: 250px;
+      float: none;
+      margin: 20px auto;
+  }
 }
+
+

@@ -127,3 +127,31 @@ h1, h2, h3{
   .footerbottom p{
     color: black;
   }
+
+
+  /* Media Queries */
+@media screen and (max-width: 768px) {
+ 
+    h1 {
+        font-size: 30px;
+    }
+  
+    h2 {
+        font-size: 16px;
+    }
+
+    h3{
+        font-size: 16px;
+    }
+
+    .links {
+        flex-direction: column;
+    }
+  
+    img {
+        width: 80%;
+        max-width: 250px;
+        float: none;
+        margin: 20px auto;
+    }
+}

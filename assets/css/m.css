@@ -127,16 +127,29 @@ footer {
     text-align: center;
   }
 
- 
-
-/* Responsive design for images */
+/* Media Queries */
 @media screen and (max-width: 768px) {
-  .images {
-      flex-wrap: wrap;
+ 
+  h1 {
+      font-size: 30px;
   }
 
-  .images img {
-      width: 100%;
-      height: auto;
+  h2 {
+      font-size: 16px;
+  }
+
+  h3{
+      font-size: 16px;
+  }
+
+  .links {
+      flex-direction: column;
+  }
+
+  img {
+      width: 80%;
+      max-width: 250px;
+      float: none;
+      margin: 20px auto;
   }
 }
