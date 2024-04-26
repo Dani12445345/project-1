@@ -66,3 +66,72 @@ h1, h2, h3{
   .links a:hover {
     background-color: var(--quaternary-color);
   }
+  
+  footer {
+    background-color:#B3C8CF;
+  }
+
+  .footercontainer {
+    width: 100%;
+    padding: 50px 30px 20px;
+  }
+
+  .social {
+    display: flex;
+    justify-content: center;
+  }
+
+  .social a {
+     text-decoration: none;
+     padding: 10px;
+     background-color: aliceblue;
+     margin: 10px;
+     border-radius: 50%;
+  }
+
+  .social a i{
+    font-size: 2em;
+    color: #000;
+    opacity: 0.9;
+  }
+
+  /* Hover effects on social media icons */
+  .socialicons a:hover{
+    background-color:#B3C8CF;
+    transition: 0.100s;
+  }
+
+  .social a:hover i{
+    color:#B3C8CF;
+    transition: 0.5s;
+  }
+
+  .footernav{
+    margin: 30px 0;
+  }
+
+  .footernav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+  }
+
+
+  
+  .footerbottom{
+    background-color:#B3C8CF;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .footerbottom p{
+    color: black;
+  }
+
+  .designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+  }
