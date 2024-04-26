@@ -1,0 +1,214 @@
+/* Global Styles */
+:root {
+     --secondary-color: #BED7DC;
+     --quaternary-color: #E5DDC5;
+    --white: #fff;
+    --grey: #ccc;
+    --dark_grey: #555;
+    --blue: #4f6fad;
+  }
+  
+  /* Functions */
+  :root {
+    --pxtoem: function($target, $context) {
+        return ($target / $context) + 0em;
+    };
+  }
+  
+/* General Styles */
+  body {
+    background-color: lighten(var(--grey), 10%);
+    font-size: 100%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    border: #555 -2PX solid;
+    background-image: url(/assets/images/streets.jpg);
+    
+  }
+
+  /* Navigation Links */
+  .links {
+    text-align: center;
+    font-size: 12px;
+    color: #0e0c0c;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .links a {
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: var(--secondary-color); /* Light Salmon color */
+    color: #0d0c0c;
+    margin: 5px; /* Add spacing between links */
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .links a:hover {
+    background-color: var(--quaternary-color); /* Light Coral color */
+    color: #fff;
+  }
+  
+  /* Font imports */
+  @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+  
+
+  
+
+  
+  div, textarea, input {
+    box-sizing: border-box;
+  }
+  
+  /* Container Styles */
+  .container {
+    max-width: 510px;
+    min-width: 324px;
+    margin: 50px auto 0;
+    background-color: var(--white);
+    border: 1px solid lighten(var(--grey), 1%);
+    border-bottom: 3px solid var(--grey);
+  }
+  
+  /* Row Styles */
+  .row {
+    width: 100%;
+    margin: 0 0 1em 0;
+    padding: 0 2.5em;
+  }
+  
+  .row.header {
+    padding: 1.5em 2.5em;
+    border-bottom: 1px solid var(--grey);
+   background-color: #4f6fad;
+    color: var(--white);
+  }
+  
+  .row.body {
+    padding: .5em 2.5em 1em;
+  }
+  
+  .pull-right {
+    float: right;
+  }
+  
+  /* Typography */
+  h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    display: inline-block;
+    font-size: var(--pxtoem, 45, 16);
+    border-bottom: 1px solid hsla(100%, 100%, 100%, 0.3);
+    margin: 0 0 0.1em 0;
+    padding: 0 0 0.4em 0;
+  }
+  
+  h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: var(--pxtoem, 20, 16);
+    margin: 1em 0 0.4em 0;
+  }
+  
+  /* Button Styles */
+  .btn {
+    font-size: var(--pxtoem, 17, 16);
+    display: inline-block;
+    padding: 0.74em 1.5em;
+    margin: 1.5em 0 0;
+    color: var(--white);
+    border-width: 0 0 0 0;
+    border-bottom: 5px solid;
+    text-transform: uppercase;
+  }
+  
+  .btn:hover {
+    background-color: var(--blue);
+  }
+  
+  .btn.btn-submit {
+    background-color: var(--blue);
+    border-bottom-color: darken(var(--blue), 15%);
+  }
+  
+  /* Form Styles */
+  form {
+    max-width: 100%;
+    display: block;
+  }
+  
+  label {
+    display: block;
+    margin: 0 0 0.5em 0;
+    color: var(--blue);
+    font-size: var(--pxtoem, 16, 16);
+  }
+  
+  input {
+    margin: 0 0 0.5em 0;
+    border: 1px solid var(--grey);
+    padding: 6px 10px;
+     font-size: var(--pxtoem, 16, 16);
+  }
+  
+  textarea {
+    border: 1px solid var(--grey);
+    padding: 6px 10px;
+    width: 100%;
+    color: var(--dark_grey);
+  }
+  
+  .small {
+    color: var(--blue);
+    margin: 0 0 0 0.5em;
+  }
+  
+  /* Divider Styles */
+  .divider {
+    margin: 0.5em 0 0.5em 0;
+    border: 0;
+    height: 10px;
+    width: 100%;
+    display: block;
+    background-color: var(--blue);
+    background-image: linear-gradient(to right, var(--pink), var(--blue));
+  }
+  
+  /* Media Queries */
+  @media only screen and (max-width: 480px) {
+    .pull-right {
+        float: none;
+    }
+  
+    input {
+        width: 100%;
+    }
+  
+    label {
+        width: 100%;
+        display: inline-block;
+        clear: both;
+    }
+  
+    li, p {
+        width: 100%;
+    }
+  
+    input.btn {
+        margin: 1.5em 0 0.5em;
+    }
+  
+    h1 {
+        font-size: var(--pxtoem, 36, 16);
+    }
+  
+    h3 {
+        font-size: var(--pxtoem, 18, 16);
+    }
+  
+    li small {
+        display: none;
+    }
+  }
