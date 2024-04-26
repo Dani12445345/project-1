@@ -14,32 +14,48 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.links {
-    text-align: center;
-    font-size: 12px;
-    color: #0e0c0c;
-    background-color: var(--primary-color);
-    border: 30px solid var(--primary-color);
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    border-bottom: #527194 2px solid;
-}
-
 .links a {
     text-decoration: none;
-    padding: 15px 30px;
+    padding: 20px 30px;
     border-radius: 5px;
     background-color: var(--secondary-color);
-    color: #100e0e;
-    margin: 5px;
+    color: #000;
+    margin: 15px;
     transition: 0.3s, color 0.3s;
-}
-
-.links a:hover {
+    font-size: 16px;
+  }
+  
+  .links a:hover {
     background-color: var(--quaternary-color);
-    color: #fff;
-}
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center; /* Center align items on larger screens */
+  }
+  
+  .links {
+    display: flex;
+    justify-content: center; /* Center align navigation links */
+  }
+  
+  .navbar {
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  .burger-menu {
+    display: none;
+  }
+  
+  .line {
+    width: 35px;
+    height: 3px;
+    background-color: #130000;
+    margin: 5px;
+  }
+
+  
 
 .images {
     display: flex;
@@ -107,7 +123,7 @@ iframe {
     display: block;
     margin-top: 30px;
     margin-bottom: 100px;
-    width: 100%; /* Set iframe width to fill the screen */
+    width: 400px;
     height: 250px;
 }
 
@@ -135,3 +151,27 @@ iframe {
         margin: 0 auto;
     }
 }
+
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        justify-content: flex-start; /* Align navbar items to the left on mobile */
+    }
+  
+    .links {
+        display: none;
+        flex-direction: column; /* Arrange links vertically in mobile dropdown */
+    }
+  
+    .links.show {
+        display: flex;
+        background-color: var(--primary-color); /* Change background color for visibility */
+        width: 100%;
+        padding: 10px;
+    }
+  
+    .burger-menu {
+        display: block;
+        cursor: pointer;
+    }
+  }

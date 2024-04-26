@@ -29,8 +29,6 @@ body {
     border-bottom: #527194 2px solid;
 }
 
-/* Style for individual navigation links */
-
 .links a {
   text-decoration: none;
   padding: 20px 30px;
@@ -45,18 +43,17 @@ body {
 .links a:hover {
   background-color: var(--quaternary-color);
 }
-
 .navbar {
   display: flex;
-  justify-content: center; 
+  justify-content: center; /* Center align items on larger screens */
 }
 
 .links {
   display: flex;
-  justify-content: center; 
+  justify-content: center; /* Center align navigation links */
 }
 
-a {
+.navbar {
   text-decoration: none;
   margin: 0 15px;
 }
@@ -68,19 +65,16 @@ a {
 .line {
   width: 35px;
   height: 3px;
-  background-color: #0c0c0c;
+  background-color: #130000;
   margin: 5px;
 }
 
-.intro{
-    border: #FFA07A   2px solid;
-    padding: 40PX;
-    border-radius: 20px;
-    background-color: var(--primary-color);
-    
-}
-.intro {
-  font-size: 16px;
+
+/* Style for image containers */
+.images {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
 }
 
 /* Style for image containers with headings */
@@ -179,4 +173,28 @@ footer {
     display: block;
     margin: 0 auto;
 }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+      justify-content: flex-start; /* Align navbar items to the left on mobile */
+  }
+
+  .links {
+      display: none;
+      flex-direction: column; /* Arrange links vertically in mobile dropdown */
+  }
+
+  .links.show {
+      display: flex;
+      background-color: var(--primary-color); /* Change background color for visibility */
+      width: 100%;
+      padding: 10px;
+  }
+
+  .burger-menu {
+      display: block;
+      cursor: pointer;
+  }
 }
