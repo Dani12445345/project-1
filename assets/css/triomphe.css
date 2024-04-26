@@ -22,9 +22,11 @@ body {
 
 h1, h2, h3{
    font-size: 2em;
+   text-align: center;
+   text-transform: uppercase;
+
   
 }
-
 
 /* Style for paragraphs */
 .memorable {
