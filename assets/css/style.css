@@ -57,17 +57,11 @@ h1 {
 
 .navbar {
   display: flex;
-  justify-content: center; /* Center align items on larger screens */
 }
 
 .links {
   display: flex;
-  justify-content: center; /* Center align navigation links */
-}
-
-a {
-  text-decoration: none;
-  margin: 0 15px;
+  justify-content: center; 
 }
 
 .burger-menu {

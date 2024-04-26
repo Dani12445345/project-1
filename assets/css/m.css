@@ -44,18 +44,12 @@ body {
   background-color: var(--quaternary-color);
 }
 .navbar {
-  display: flex;
-  justify-content: center; /* Center align items on larger screens */
+  display: flex; 
 }
 
 .links {
   display: flex;
-  justify-content: center; /* Center align navigation links */
-}
-
-.navbar {
-  text-decoration: none;
-  margin: 0 15px;
+  justify-content: center; 
 }
 
 .burger-menu {

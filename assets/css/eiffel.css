@@ -31,20 +31,10 @@ body {
   
   .navbar {
     display: flex;
-    justify-content: center; /* Center align items on larger screens */
-  }
-  
-  .links {
-    display: flex;
-    justify-content: center; /* Center align navigation links */
-  }
-  
-  .navbar {
-    text-decoration: none;
-    margin: 0 15px;
-  }
-  
-  .burger-menu {
+     }
+    
+    
+ .burger-menu {
     display: none;
   }
   
@@ -123,7 +113,7 @@ iframe {
     display: block;
     margin-top: 30px;
     margin-bottom: 100px;
-    width: 400px;
+    width: 300px;
     height: 250px;
 }
 
