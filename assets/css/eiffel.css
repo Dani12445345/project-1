@@ -99,7 +99,7 @@ h1, h2 {
   }
 
   iframe {
-     border: #ff0909 2px solid;
+    border:2px solid #FFA07A;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: auto;
     display: block;
