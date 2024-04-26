@@ -44,25 +44,32 @@ h1, h2 {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+}
+
+.img-with-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
-  
+
 .img-with-heading h1,
 .img-with-heading h2,
 .img-with-heading h3 {
-
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
     color: #0e0c0c;
     margin-top: 5px;
-    ;
-    
+    text-transform: uppercase;
 }
 
 .images img {
     width: 150px;
     height: 200px;
+    margin: 5px;
     object-fit: cover;
 }
+
 
 /* Section styles for additional info */
 .additional-info {
