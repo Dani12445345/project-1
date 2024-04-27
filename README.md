@@ -153,8 +153,7 @@ Users can easily access the website's social media platforms by clicking on the 
 - This footer design provides a professional and polished conclusion to the webpage, enhancing the overall user experience.
 
 
-
-![footer.png](assets/images/footer.png)
+![footer.png](`assets/images/footer.pn)
 
 ## Future Improvements
 - Implement an interactive map for users to visually explore Parisian landmarks.
