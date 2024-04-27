@@ -154,7 +154,7 @@ Users can easily access the website's social media platforms by clicking on the 
 
 <img src="external link" alt="alt text" width="200"/>
 
-[footer.png](assets/images/footer.png)
+![footer.png](assets/images/footer.png)
 
 ## Future Improvements
 - Implement an interactive map for users to visually explore Parisian landmarks.
