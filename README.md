@@ -68,7 +68,7 @@ Users can easily access the website's social media platforms by clicking on the 
 -It includes a burger menu icon (burger-menu) that, when clicked, toggles the visibility of the links within the navbar.
 
 
-<img src="assets/images/navpng.png">
+<img src="project-1\assets\images\Screenshot1png.png">
 
 
 ## The landing page 
@@ -79,7 +79,7 @@ Users can easily access the website's social media platforms by clicking on the 
 
 <img src="assets/images/Screenshot1png.png">
 
-
+<img src="assets/images/screenshot2024png.png">
 
 
 
@@ -95,25 +95,6 @@ Users can easily access the website's social media platforms by clicking on the 
 - Implement an interactive map for users to visually explore Parisian landmarks.
 - Add a search functionality for users to quickly find specific information.
 - Enhance user interaction with more dynamic features and multimedia elements.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## Acknowledgement
