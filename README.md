@@ -39,7 +39,7 @@ This project aims to showcase information about iconic landmarks in Paris, inclu
 
 - The website includes a fully responsive navigation bar with links to different pages like the Museum, Eiffel Tower, Arc de Triomphe, and Contact Us. It provides easy access to navigate through the website on various devices. 
 
-<img src="assets/images/screenshot2024-04-27170956.png>
+<img src="assets/images/screenshot2024-04-27170956.png">
 
 
 ## The landing page 
@@ -48,7 +48,7 @@ This project aims to showcase information about iconic landmarks in Paris, inclu
 - Details about Paris's culture, history, attractions like the Eiffel Tower, Louvre Museum, and more are provided.
 
 
-<img src="assets/images/screenshot.png>
+<img src="assets/images/screenshot.png">
 
 
 ## Footer Section
@@ -57,7 +57,7 @@ Users can easily access the website's social media platforms by clicking on the 
 - The footer also includes copyright information, denoting the year of creation (©2024) and the designer's name (Dani) for attributing credit.
 - This footer design provides a professional and polished conclusion to the webpage, enhancing the overall user experience.
 
-<img src="assets/images/footer.png>
+<img src="assets/images/footer.png">
 
 
 ### Eiffel Tower Page (eiffelTower.html)
@@ -68,7 +68,7 @@ Users can easily access the website's social media platforms by clicking on the 
 -It includes a burger menu icon (burger-menu) that, when clicked, toggles the visibility of the links within the navbar.
 
 
-<img src="assets/images/navpng.png>
+<img src="assets/images/navpng.png">
 
 
 ## The landing page 
@@ -77,7 +77,7 @@ Users can easily access the website's social media platforms by clicking on the 
 - Content Section: Provides information about the Eiffel Tower, including facts like the number of rivets used, tower height, and construction details. This section educates visitors about the iconic structure.
 - Images Section: Features memorable pictures from the construction of the Eiffel Tower with corresponding captions linking to external sources for further exploration.
 
-<img src="assets/images/Screenshot1png.png>
+<img src="assets/images/Screenshot1png.png">
 
 
 
