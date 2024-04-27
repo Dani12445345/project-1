@@ -152,9 +152,9 @@ Users can easily access the website's social media platforms by clicking on the 
 - The footer also includes copyright information, denoting the year of creation (©2024) and the designer's name (Dani) for attributing credit.
 - This footer design provides a professional and polished conclusion to the webpage, enhancing the overall user experience.
 
-<img src="assets/images/footer.png">
+<img src="external link" alt="alt text" width="200"/>
 
-
+![footer](assets/images/footer.png)
 
 ## Future Improvements
 - Implement an interactive map for users to visually explore Parisian landmarks.
