@@ -48,7 +48,7 @@ This project aims to showcase information about iconic landmarks in Paris, inclu
 - Details about Paris's culture, history, attractions like the Eiffel Tower, Louvre Museum, and more are provided.
 
 
-<img src="assets/images/screenshot.png">
+<img src="project/assets/images/screenshot.png">
 
 
 ## Footer Section
