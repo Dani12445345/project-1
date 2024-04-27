@@ -57,7 +57,7 @@ Users can easily access the website's social media platforms by clicking on the 
 - The footer also includes copyright information, denoting the year of creation (©2024) and the designer's name (Dani) for attributing credit.
 - This footer design provides a professional and polished conclusion to the webpage, enhancing the overall user experience.
 
-<img src="assets/images/footer.png">
+<img src="assets/images/footer.png.png">
 
 
 ### Eiffel Tower Page (eiffelTower.html)
@@ -82,14 +82,79 @@ Users can easily access the website's social media platforms by clicking on the 
 <img src="assets/images/screenshot2024png.png">
 
 
+## Footer Section
+- The footer section of the website contains social media icons linking to Instagram, Twitter, YouTube, and GitHub accounts for enhanced engagement and connectivity.
+Users can easily access the website's social media platforms by clicking on the respective icons.
+- The footer also includes copyright information, denoting the year of creation (©2024) and the designer's name (Dani) for attributing credit.
+- This footer design provides a professional and polished conclusion to the webpage, enhancing the overall user experience.
+
+
+<img src="assets/images/footer.png">
+
+
 
 ### Arc de Triomphe Page (triomphe.html)
 - Overview of the Arc de Triomphe, historical context, and significance.
 - Interesting facts and memorable events associated with the monument.
 
+
+- The navigation bar contains links to the Home page, Eiffel Tower page, Museum page, and Contact Us page. It includes a burger menu icon for mobile responsiveness.
+
+
+
+<img src="assets/images/triomphe.png">
+
+## The landing page
+
+ -The landing includes the Arc de Triomphe in Paris and provides a captivating introduction to the monumental landmark. It features a striking image of the Arc de Triomphe, accompanied by essential information about its historical significance and construction. The page highlights key details such as the monument's tribute to fallen heroes of France, its architectural inspiration from ancient Roman design, and notable events that have taken place at the site.
+   
+
+
+<img src="assets/images/land.png">
+<img src="assets/images/m.png">
+
+
+
+## Footer Section
+- The footer section of the website contains social media icons linking to Instagram, Twitter, YouTube, and GitHub accounts for enhanced engagement and connectivity.
+Users can easily access the website's social media platforms by clicking on the respective icons.
+- The footer also includes copyright information, denoting the year of creation (©2024) and the designer's name (Dani) for attributing credit.
+- This footer design provides a professional and polished conclusion to the webpage, enhancing the overall user experience.
+
+
+<img src="assets/images/footer.png">
+
+
+
+
 ### Louvre Museum Page (museum.html)
 - Information about The Louvre museum, iconic artworks, and historical background.
 - Image gallery featuring famous artworks housed in The Louvre.
+
+
+- The navigation bar contains links to the Home page, Eiffel Tower page, The Arc de Triomphe and Contact Us page. It includes a burger menu icon for mobile responsiveness.
+
+<img src="assets/images/Louvre.png">
+
+
+
+- The landing page for the Louvre Museum includes information about the iconic museum in Paris, offering a captivating introduction to its vast collection and historical significance. It features a stunning image of the Louvre Museum and provides essential details about its history, architecture, and famous artworks housed within. The page highlights key aspects such as the museum's renowned art collections, its evolution from a royal palace to a cultural institution, and notable events or exhibitions that have taken place at the museum.
+<img src="assets/images/screenshot20240427203044.png">
+
+
+
+
+
+
+## Footer Section
+- The footer section of the website contains social media icons linking to Instagram, Twitter, YouTube, and GitHub accounts for enhanced engagement and connectivity.
+Users can easily access the website's social media platforms by clicking on the respective icons.
+- The footer also includes copyright information, denoting the year of creation (©2024) and the designer's name (Dani) for attributing credit.
+- This footer design provides a professional and polished conclusion to the webpage, enhancing the overall user experience.
+
+<img src="assets/images/footer.png">
+
+
 
 ## Future Improvements
 - Implement an interactive map for users to visually explore Parisian landmarks.
