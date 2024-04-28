@@ -48,7 +48,7 @@ This project aims to showcase information about iconic landmarks in Paris, inclu
 - Details about Paris's culture, history, attractions like the Eiffel Tower, Louvre Museum, and more are provided.
 
 
-<img src="project/assets/images/screenshot.png">
+![home](/assets/images/tower.png )
 
 
 ## Footer Section
@@ -57,7 +57,8 @@ Users can easily access the website's social media platforms by clicking on the 
 - The footer also includes copyright information, denoting the year of creation (©2024) and the designer's name (Dani) for attributing credit.
 - This footer design provides a professional and polished conclusion to the webpage, enhancing the overall user experience.
 
-<img src="assets/images/footer.png.png">
+
+![footer.png](assets/images/footer.png)
 
 
 ### Eiffel Tower Page (eiffelTower.html)
