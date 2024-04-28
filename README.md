@@ -40,7 +40,7 @@ This project aims to showcase information about iconic landmarks in Paris, inclu
 - The website includes a fully responsive navigation bar with links to different pages like the Museum, Eiffel Tower, Arc de Triomphe, and Contact Us. It provides easy access to navigate through the website on various devices. 
 
 
-![home](assets/images/navbar1.webp)
+![home](assets/images/Screenshot%202024-04-28%20155316.webp)
 
 ## The landing page
 
@@ -48,7 +48,7 @@ This project aims to showcase information about iconic landmarks in Paris, inclu
 - Details about Paris's culture, history, attractions like the Eiffel Tower, Louvre Museum, and more are provided.
 
 
-![home](/assets/images/tower.png )
+![home](assets/images/tower.png )
 
 
 ## Footer Section
